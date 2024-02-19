@@ -18,7 +18,7 @@
     "@radix-ui/react-slot": "^1.0.2",
     "@radix-ui/react-toast": "^1.1.5",
     "@stripe/stripe-js": "^3.0.3",
-    "@vercel/analytics": "^1.2.0",
+    "@vercel/analytics": "^1.2.1",
     "class-variance-authority": "^0.7.0",
     "cloudinary": "^2.0.1",
     "clsx": "^2.1.0",
