@@ -20,11 +20,13 @@ import { Button } from "../ui/button";
 import { Search } from "./search";
 
 export const Collection = ({
+  title,
   hasSearch = false,
   images,
   totalPages = 1,
   page,
 }: {
+  title: string;
   images: IImage[];
   totalPages?: number;
   page: number;
@@ -49,7 +51,7 @@ export const Collection = ({
   return (
     <>
       <div className="collection-heading">
-        <h2 className="h2-bold text-dark-600">Recent Edits</h2>
+        <h2 className="h2-bold text-dark-600">{title}</h2>
         {hasSearch && <Search />}
       </div>
 

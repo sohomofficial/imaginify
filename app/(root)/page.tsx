@@ -31,6 +31,7 @@ export default async function Home({ searchParams }: SearchParamProps) {
       </section>
       <section className="sm:mt-12">
         <Collection
+          title="Recent Tranformations by People"
           hasSearch={true}
           images={images?.data}
           totalPages={images?.totalPage}

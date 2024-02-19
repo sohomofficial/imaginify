@@ -52,6 +52,7 @@ const Profile = async ({ searchParams }: SearchParamProps) => {
 
       <section className="mt-8 md:mt-14">
         <Collection
+          title="Recent Transformations"
           images={images?.data}
           totalPages={images?.totalPages}
           page={page}
